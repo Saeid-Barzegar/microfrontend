@@ -19,7 +19,8 @@ const devConfig = {
       name: "container",
       remotes: {
         marketing: "marketing@http://localhost:8081/remoteEntry.js",
-        authentication: "auth@http://localhost:8082/remoteEntry.js"
+        authentication: "auth@http://localhost:8082/remoteEntry.js",
+        dashboard: "dashboard@http://localhost:8083/remoteEntry.js"
       },
       // shared: ['react', 'react-dom'], // static
       shared: packageJson.dependencies, // dynamically gets all dependencies from package.json
